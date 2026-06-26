@@ -1,26 +1,43 @@
-# Simple Calculator in C#
-
-A simple calculator program written in **C#** that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
-
-## How to Use
-
-1. Clone or download this repository.
-2. Open the project in your preferred C# development environment.
-3. Build and run the program.
-4. Enter two numbers and choose an operator (`+`, `-`, `*`, `/`) when prompted.
-5. The program will display the result of the selected operation.
+# csharp-calculator
+## Overview
+A simple console-based calculator application developed using **C#** and **.NET**. This project performs basic arithmetic operations and demonstrates fundamental C# programming concepts such as user input, type conversion, conditional statements, and switch-case control flow.
 
 ## Features
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Division by zero handling
+- Invalid operator validation
+- Console-based user interaction
 
-- Performs basic arithmetic operations:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Division
-- Handles division by zero
-- Simple and easy-to-use console interface
+## Technologies Used
+- C#
+- .NET 10 Console Application
+- Visual Studio Code
 
-## Requirements
+## Concepts Covered
+- Variables and Data Types
+- User Input (`Console.ReadLine()`)
+- Type Conversion (`Convert.ToDouble()`, `Convert.ToChar()`)
+- Conditional Statements (`if-else`)
+- Switch Statement
+- Basic Error Handling
 
-- .NET Framework 4.5 or later
-- A C# IDE such as Visual Studio or Visual Studio Code
+## Project Structure
+```text
+calculator/
+├── Program.cs
+├── calculator.csproj
+└── README.md
+```
+
+## Sample Output
+Enter the first number: 20
+Enter the second number: 4
+Enter an operator (+, -, *, /): /
+
+20 / 4 = 5
+
+## Learning Outcome
+This project helped me understand the fundamentals of C# and the .NET platform, including console application development, user input handling, type conversion, control statements, and basic arithmetic operations.
