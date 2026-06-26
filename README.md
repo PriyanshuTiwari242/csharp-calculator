@@ -1,22 +1,27 @@
-# csharp-calculator
+# Csharp Calculator
+
 ## Overview
-A simple console-based calculator application developed using **C#** and **.NET**. This project performs basic arithmetic operations and demonstrates fundamental C# programming concepts such as user input, type conversion, conditional statements, and switch-case control flow.
+
+A simple **console-based calculator** application developed using **C#** and **.NET**. This project performs basic arithmetic operations while demonstrating fundamental C# programming concepts such as user input, type conversion, conditional statements, switch-case control flow, and basic error handling. It is designed as a beginner-friendly project to strengthen the fundamentals of C# and .NET console application development.
 
 ## Features
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
+
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
 - Division by zero handling
 - Invalid operator validation
-- Console-based user interaction
+- Interactive console-based user interface
 
 ## Technologies Used
+
 - C#
 - .NET 10 Console Application
 - Visual Studio Code
 
 ## Concepts Covered
+
 - Variables and Data Types
 - User Input (`Console.ReadLine()`)
 - Type Conversion (`Convert.ToDouble()`, `Convert.ToChar()`)
@@ -25,6 +30,7 @@ A simple console-based calculator application developed using **C#** and **.NET*
 - Basic Error Handling
 
 ## Project Structure
+
 ```text
 calculator/
 ├── Program.cs
@@ -33,11 +39,15 @@ calculator/
 ```
 
 ## Sample Output
+
+```text
 Enter the first number: 20
-Enter the second number: 4
+Enter the second number: 5
 Enter an operator (+, -, *, /): /
 
-20 / 4 = 5
+20 / 5 = 4
+```
 
 ## Learning Outcome
-This project helped me understand the fundamentals of C# and the .NET platform, including console application development, user input handling, type conversion, control statements, and basic arithmetic operations.
+
+This project helped me build a strong foundation in **C#** and the **.NET** platform. Through its implementation, I gained practical experience in console application development, user input handling, data type conversion, control flow using conditional and switch statements, and implementing basic arithmetic operations with simple error handling.
